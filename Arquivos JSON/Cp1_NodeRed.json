@@ -1,0 +1,36 @@
+[
+    {
+        "id": "36eba6739440c5aa",
+        "type": "serial in",
+        "z": "a7f3042b753876db",
+        "name": "",
+        "serial": "762cc3bca92b2b25",
+        "x": 50,
+        "y": 340,
+        "wires": [
+            [
+                "e0f4c52eeadc05e1",
+                "194171a0e3121fc1"
+            ]
+        ]
+    },
+    {
+        "id": "762cc3bca92b2b25",
+        "type": "serial-port",
+        "serialport": "COM4",
+        "serialbaud": "9600",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    }
+]
